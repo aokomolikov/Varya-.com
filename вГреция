@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varyaсейлс · Греция</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* (повторяется тот же CSS, что и в turkey.html) */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Quicksand',sans-serif; background:linear-gradient(145deg,#e3f2e9 0%,#d4e9f0 100%); color:#1f3b3a; padding:20px; min-height:100vh; display:flex; justify-content:center; align-items:center; }
+    .site-wrap { max-width:1100px; width:100%; background:rgba(255,255,255,0.45); backdrop-filter:blur(4px); border-radius:60px 60px 40px 40px; box-shadow:0 25px 40px -10px rgba(50,80,80,0.3); padding:20px 25px 40px; border:1px solid rgba(255,240,210,0.5); }
+    .header { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; padding:12px 20px 20px 20px; border-bottom:3px dashed #b6d7c6; margin-bottom:30px; }
+    .logo-block { display:flex; align-items:center; gap:12px; }
+    .logo-icon { display:flex; gap:2px; background:#d7f0e6; padding:8px 14px 8px 10px; border-radius:100px; box-shadow:0 8px 0 #7fa89b; transform:rotate(-2deg); border:2px solid #f8cdd4; }
+    .surf-icon { font-size:2.1rem; color:#26877c; filter:drop-shadow(0 4px 2px rgba(0,0,0,0.1)); }
+    .logo-text { font-size:2.2rem; font-weight:700; letter-spacing:1px; background:linear-gradient(135deg,#1f6b62,#308a7a); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .logo-text small { font-size:1rem; -webkit-text-fill-color:#b45f6f; color:#b45f6f; background:none; }
+    .nav-links { display:flex; flex-wrap:wrap; gap:10px 16px; background:rgba(230,245,235,0.7); padding:10px 18px; border-radius:60px; backdrop-filter:blur(2px); border:1px solid #bcd9d0; }
+    .nav-links a { text-decoration:none; font-weight:600; color:#1d4e46; transition:0.25s; border-bottom:2px solid transparent; padding-bottom:4px; font-size:0.95rem; }
+    .nav-links a:hover { color:#c53f5e; border-bottom-color:#f6aebf; }
+    .section-card { background:rgba(255,251,242,0.7); backdrop-filter:blur(4px); border-radius:48px 48px 48px 12px; padding:25px 30px 35px; border:1px solid rgba(255,215,200,0.5); box-shadow:0 12px 18px -8px rgba(60,100,90,0.2); }
+    .section-title { display:flex; align-items:center; gap:16px; margin-bottom:22px; }
+    .section-title h2 { font-size:2.4rem; font-weight:700; background:linear-gradient(145deg,#1b645a,#2e8b7a); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .section-title i { font-size:2rem; color:#e4849b; filter:drop-shadow(0 4px 6px #f2bac9); }
+    .grid-2 { display:grid; grid-template-columns:1fr 1.2fr; gap:30px; align-items:center; }
+    @media (max-width:700px) { .grid-2 { grid-template-columns:1fr; gap:18px; } }
+    .img-wrapper { border-radius:40px 12px 40px 12px; overflow:hidden; box-shadow:0 12px 18px -6px #3a6b60; background:#b5d3c9; transition:0.25s; }
+    .img-wrapper img { width:100%; height:220px; object-fit:cover; display:block; transition:0.3s; }
+    .img-wrapper:hover img { transform:scale(1.03); }
+    .text-content { background:rgba(225,240,230,0.3); padding:18px 22px; border-radius:30px 8px 30px 8px; border-left:6px solid #f5b7c9; backdrop-filter:blur(2px); }
+    .text-content p { font-size:1.08rem; line-height:1.6; color:#15423b; font-weight:500; }
+    .text-content i { color:#cb6d84; margin-right:8px; }
+    .back-link { display:inline-block; margin-top:20px; background:#d7f0e6; padding:10px 24px; border-radius:60px; text-decoration:none; color:#1d4e46; font-weight:600; border:1px solid #b6d7c6; transition:0.2s; }
+    .back-link:hover { background:#c5e3d6; color:#a04b62; }
+    .footer-note { text-align:center; margin-top:30px; font-weight:600; color:#1d5e54; border-top:2px dotted #b0cfc0; padding-top:25px; font-size:1rem; }
+    .footer-note i { color:#dd7f98; margin:0 6px; }
+  </style>
+</head>
+<body>
+<div class="site-wrap">
+  <header class="header">
+    <div class="logo-block">
+      <div class="logo-icon"><i class="fas fa-surfing surf-icon"></i><i class="fas fa-surfing surf-icon" style="transform:scaleX(-1);"></i></div>
+      <div class="logo-text">Varyaсейлс <small>· travel</small></div>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Меню</a><a href="turkey.html">Турция</a><a href="greece.html">Греция</a>
+      <a href="usa.html">Америка</a><a href="bali.html">Бали</a><a href="maldives.html">Мальдивы</a>
+      <a href="egypt.html">Египет</a><a href="italy.html">Италия</a><a href="spain.html">Испания</a>
+      <a href="scotland.html">Шотландия</a><a href="dubai.html">Дубай</a>
+    </div>
+  </header>
+  <section class="section-card">
+    <div class="section-title"><h2>🇬🇷 Греция</h2><i class="fas fa-olive"></i></div>
+    <div class="grid-2">
+      <div class="img-wrapper"><img src="https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?w=600&h=400&fit=crop&crop=center" alt="Греция"></div>
+      <div class="text-content"><p><i class="fas fa-flag"></i> Колыбель демократии и философии. Греция подарила миру Олимпийские игры, театр и скульптуры, которые восхищают до сих пор. Белоснежные домики Санторини и шум Афин — это вечное лето.</p></div>
+    </div>
+    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> На главную</a>
+  </section>
+  <div class="footer-note"><i class="fas fa-sun"></i> Varyaсейлс · твой билет к морю <i class="fas fa-heart" style="color:#d16882;"></i> 2026</div>
+</div>
+</body>
+</html>
